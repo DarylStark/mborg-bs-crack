@@ -676,7 +676,7 @@ void loop() {
   // onderstaande timeout (100) duurt het 5000 * 100ms, oftweel iets meer dan 8min.
   // Plus natuurlijk de verwerkingstijd van de code en de overhead van het
   // printer naar Serial. Trage meuk is het.
-  delay(100);
+  delay(100); // Let op: niet lager dan 50, anders werkt het niet!!!
 }
 
 // Als we de codes nu korter konden krijgen ... 6 tekens ofzo .. dan zou het
