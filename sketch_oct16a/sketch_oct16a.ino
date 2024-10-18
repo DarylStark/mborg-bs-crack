@@ -673,10 +673,10 @@ void loop() {
   tellertje++;
   
   // Kan beslist lager voor een hogere snelheid, maar ach, ik heb de tijd. Met
-  // onderstaande timeout (50) duurt het 5000 * 50ms, oftweel iets meer dan 2min.
+  // onderstaande timeout (100) duurt het 5000 * 100ms, oftweel iets meer dan 8min.
   // Plus natuurlijk de verwerkingstijd van de code en de overhead van het
   // printer naar Serial. Trage meuk is het.
-  delay(50);
+  delay(100);
 }
 
 // Als we de codes nu korter konden krijgen ... 6 tekens ofzo .. dan zou het
