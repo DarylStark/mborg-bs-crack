@@ -15,6 +15,11 @@
 // kastje aansluit. Eerst de GPIOs aansluiten, dan pas de stroom. Geen idee
 // waarom dit is. Denk dat de programmeur van de BS gewoon slecht is.
 //
+// Also; let via het commando "show external-license" op dat er codes
+// binnenkomen. Als hij stagneert, herstart de cracker dan met de reset knop
+// op het apparaat. Bij een koude start doet hij het soms niet goed. Een warme
+// start werkt eigenlijk altijd.
+//
 // LET OP: de AC24 heeft vier license slots ipv drie. De code voor de vierde
 //         weet ik niet en kun je dus met deze cracker ook niet vinden. Als je
 //         die code nodig hebt moet je het anders doen. Brute force ofzo?
